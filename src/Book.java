@@ -1,9 +1,9 @@
 public class Book {
-    Author author;
-    public String name;
-    public double price;
-    public int bookId;
-    public int count;
+    private Author author;
+    private String name;
+    private double price;
+    private int bookId;
+    private int count;
 
     public Book(Author author, String name, double price, int bookId, int count) {
         this.author = author;

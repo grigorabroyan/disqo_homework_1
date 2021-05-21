@@ -8,6 +8,7 @@ public class Main {
                  "Memories of My Life", 100, 3, 44);
         Book book3 = new Book(new Author("Nassim Nicholas Taleb", "taleb@gmail.com"),
                  "Antifragile", 50, 1);
+
         System.out.println(book);
         System.out.println(book1);
         System.out.println(book2);
